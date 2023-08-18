@@ -15,7 +15,7 @@ import ArticleList from "./_components/ArticleList";
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <main className="flex justify-center items-center desktop:bg-slate-400">
+    <main className="desktop:grid desktop:place-items-center desktop:bg-slate-400">
       <div className="bg-off-white desktop:w-[1440px] desktop:h-[900px] px-4 desktop:px-40 desktop:mx-auto desktop:py-8">
         <Navbar isOpen={isOpen} setIsOpen={setIsOpen} />
         <div className="desktop:flex desktop:gap-6 desktop:w-full desktop:flex-1 desktop:mb-10">

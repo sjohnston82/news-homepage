@@ -14,7 +14,7 @@ const Navbar = ({ isOpen, setIsOpen }: NavbarProps) => {
   return (
     <div className="h-24 flex items-center justify-between w-full">
       <div className="relative">
-      <Image src={Logo} alt="Logo" className="w-12" />
+      <Image src={Logo} alt="Logo" className="w-16" />
 
       </div>
       <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />
