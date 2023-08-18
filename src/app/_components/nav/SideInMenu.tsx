@@ -34,19 +34,19 @@ const SideInMenu = ({ isOpen, setIsOpen }: NavbarProps) => {
             </div>
             <div className="pl-4 mt-[90px]">
               <ul className="flex flex-col gap-[17px] ">
-                <li className="text-[20px]  text-very-dark-blue font-[600] ">
+                <li className="text-[20px]  text-very-dark-blue font-[600] hover:text-soft-orange cursor-pointer">
                   Home
                 </li>
-                <li className="text-[20px]  text-very-dark-blue font-[600]">
+                <li className="text-[20px]  text-very-dark-blue font-[600] hover:text-soft-orange cursor-pointer">
                   New
                 </li>
-                <li className="text-[20px]  text-very-dark-blue font-[600]">
+                <li className="text-[20px]  text-very-dark-blue font-[600] hover:text-soft-orange cursor-pointer">
                   Popular
                 </li>
-                <li className="text-[20px]  text-very-dark-blue font-[600]">
+                <li className="text-[20px]  text-very-dark-blue font-[600] hover:text-soft-orange cursor-pointer">
                   Trending
                 </li>
-                <li className="text-[20px]  text-very-dark-blue font-[600]">
+                <li className="text-[20px]  text-very-dark-blue font-[600] hover:text-soft-orange cursor-pointer">
                   Categories
                 </li>
               </ul>

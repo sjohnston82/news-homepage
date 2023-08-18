@@ -9,6 +9,7 @@ import MainHeading from "./_components/MainHeading";
 import SubHeading from "./_components/SubHeading";
 import ReadMoreButton from "./_components/ReadMoreButton";
 import NewHeadlinesContainer from "./_components/NewHeadlinesContainer";
+import ArticleList from "./_components/ArticleList";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,7 @@ export default function Home() {
       <SubHeading />
       <ReadMoreButton />
       <NewHeadlinesContainer />
+      <ArticleList />
     </main>
   );
 }

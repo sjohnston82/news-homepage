@@ -8,7 +8,9 @@ type HeadlineGroupProps = {
 const HeadlineGroup = ({ headline, description }: HeadlineGroupProps) => {
   return (
     <div className="">
-      <h1 className="text-grayish-blue text-[1.28rem] font-bold mb-1">{headline}</h1>
+      <h1 className="text-grayish-blue text-[1.28rem] font-bold mb-1 hover:text-soft-orange cursor-pointer">
+        {headline}
+      </h1>
       <p className="text-dark-grayish-blue leading-relaxed text-[0.95rem]">
         {description}
       </p>
