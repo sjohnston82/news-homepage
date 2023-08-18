@@ -1,7 +1,9 @@
 import React from "react";
 
 const HR = () => {
-  return <div className="h-[1px] border-t opacity-50 my-6 border-dark-grayish-blue w-full"></div>;
+  return (
+    <div className="h-[1px] border-t opacity-50 my-6 desktop:my-8 border-dark-grayish-blue w-full"></div>
+  );
 };
 
 export default HR;

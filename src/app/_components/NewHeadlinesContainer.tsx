@@ -4,7 +4,7 @@ import HR from './HR'
 
 const NewHeadlinesContainer = () => {
   return (
-    <div className="bg-very-dark-blue w-full h-full my-16 p-5">
+    <div className="bg-very-dark-blue w-full h-full my-16 p-5 desktop:my-0 desktop:px-6">
       <h1 className="text-soft-orange font-semibold text-3xl mb-7">New</h1>
       <HeadlineGroup headline='Hydrogen VS Electric Cars' description='Will hydrogen-fueled cars ever catch up to EVs?' />
       <HR />

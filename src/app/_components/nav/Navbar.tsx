@@ -3,6 +3,7 @@ import Image from "next/image";
 import MenuIcon from "../../../../public/images/icon-menu.svg";
 import Logo from "../../../../public/images/logo.svg";
 import MobileMenu from "./MobileMenu";
+import DesktopMenu from "./DesktopMenu";
 
 type NavbarProps = {
   isOpen: boolean;
@@ -17,6 +18,7 @@ const Navbar = ({ isOpen, setIsOpen }: NavbarProps) => {
 
       </div>
       <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />
+      <DesktopMenu />
     </div>
   );
 };

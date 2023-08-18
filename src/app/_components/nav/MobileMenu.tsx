@@ -14,7 +14,7 @@ type NavbarProps = {
 
 const MobileMenu = ({ isOpen, setIsOpen }: NavbarProps) => {
   return (
-    <div className=" h-24  w-full flex justify-end">
+    <div className=" h-24  w-full flex justify-end desktop:hidden">
       {!isOpen ? (
         <Image
           src={MenuIcon}
