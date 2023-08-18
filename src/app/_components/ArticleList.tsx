@@ -6,7 +6,7 @@ import Article from './Article'
 
 const ArticleList = () => {
   return (
-    <div className="flex flex-col gap-8 mb-16 desktop:flex-row desktop:gap-10 desktop:mb-0">
+    <div className="flex flex-col gap-8 mb-16 desktop:flex-row desktop:gap-10">
       <Article
         image={RetroPCImage}
         number="01"

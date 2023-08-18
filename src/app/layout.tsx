@@ -10,6 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "News Homepage",
   description: "News homepage app challenge by FrontendMentor.io",
+  icons: ["icon.png"],
 };
 
 export default function RootLayout({
@@ -19,7 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-slate-400`}>{children}</body>
+      <body className={`${inter.className} desktop:bg-slate-400`}>
+        {children}
+      </body>
     </html>
   );
 }

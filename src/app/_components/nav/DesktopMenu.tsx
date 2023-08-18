@@ -4,11 +4,21 @@ const DesktopMenu = () => {
   return (
     <div className="max-[1439px]:hidden">
       <ul className="flex gap-8 desktop:gap-9">
-        <li className="text-very-dark-blue">Home</li>
-        <li className="">New</li>
-        <li className="">Popular</li>
-        <li className="">Trending</li>
-        <li className="">Categories</li>
+        <li className="text-very-dark-blue hover:text-soft-orange cursor-pointer">
+          Home
+        </li>
+        <li className="text-very-dark-blue hover:text-soft-orange cursor-pointer">
+          New
+        </li>
+        <li className="text-very-dark-blue hover:text-soft-orange cursor-pointer">
+          Popular
+        </li>
+        <li className="text-very-dark-blue hover:text-soft-orange cursor-pointer">
+          Trending
+        </li>
+        <li className="text-very-dark-blue hover:text-soft-orange cursor-pointer">
+          Categories
+        </li>
       </ul>
     </div>
   );
