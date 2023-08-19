@@ -40,7 +40,7 @@ Users should be able to:
 - Mobile-first workflow
 - NextJs
 - TailwindCSS
-  -Framer-motion
+- Framer-motion
 
 ### What I learned
 
